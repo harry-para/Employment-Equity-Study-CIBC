@@ -1,12 +1,19 @@
 # Employment Equity Study - CIBC Bank
-This project used crime record data that was sourced from the Toronto Police Service Public Safety Data Portal (https://data.torontopolice.on.ca/datasets/mci-2014-to-2019). Crime data was collected from 2015-2019.
+This project used self reported data from CIBC bank that was sourced from ESDC (Employment and Social Development Canada). The data was national data from 2017.
 
-The purpose of this project was to compare Toronto neighbourhoods based on their crime levels.
+The purpose of this project was to observe female representation among senior occupational groups at CIBC.
+This project:
+ 1. Analyzed the connection between gender and other employmee statuses (i.e. Indigenous background and disability status) and how this impacted employees achieving specific salary quartiles within various senior level occupational groups.
+ 2. Produced an intersectional analysis to study competition among women to achieve various salary quartiles by observing how gender coupled with Indigenous background or disability status impacted earnings potential.
 
-This crime analysis was able to use K-means clustering and regression analysis to classify neighbourhoods based on whether they had low, medium or high crime levels.
+This labour analysis was using exploratory data analysis and ordinal logistic regression modeling to predict salary quartile achievement using the R programming language.
+Using a training and testing data split, different version of the regression models were created and assessed for performance.
+The model with the best relative performance was used to create visualizations to show joint effects of gender and Indigenous/disability status.
 
-This analysis was able to combine crime record data and Toronto neighbourhood location data to use joins to build a large dataframe. This analysis uses the pandas and numpy python libraries to showcase advanced skills in data cleaning and manipulation. Data visualizations were also created to visualize the data as well as show the cluster analysis in the form of a map visualization.
+This analysis uses the R programming libraries (i.e. ggplot2) to showcase advanced skills in data manipulation and visualization. 
 
-This analysis used Google Sheets to store the Toronto neighbourhood location, Toronto crime datasets, and pandas dataframes online that were later used to produce data visualizations on Tableau. The link to the Tableau workbook is: https://public.tableau.com/profile/harry.parameswaran#!/vizhome/TorontoCrimeAnalysis/TorontoNeighbourhoodCrimeAnalysis
 
-The Python script and output using Jupyter Notebooks via the Visual Studio Code editor is attached above as "TO_Crime_Analysis.ipynb".
+This analysis used Microsoft Excel to store the datasets that were used to produce data visualizations on Tableau. 
+The link to the Tableau workbook is: https://public.tableau.com/profile/harry.parameswaran#!/vizhome/CIBC-FTEmployeeAnalysis/GenderDistributionbyOccupation
+
+The R script and output using Jupyter Notebooks via the RStudio editor is attached above as "CIBC FT Employee Analysis.ipynb".
