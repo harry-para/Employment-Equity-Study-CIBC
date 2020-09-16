@@ -1,5 +1,6 @@
 # Employment Equity Study - CIBC Bank
 This project used self reported data from CIBC bank that was sourced from ESDC (Employment and Social Development Canada). The data was national data from 2017.
+Data Source: https://equity.esdc.gc.ca/sgiemt-weims/pub/f.4rm2@-eng.jsp?eid=281&cal=2017&id=1
 
 The purpose of this project was to observe female representation among senior occupational groups at CIBC.
 This project:
