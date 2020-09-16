@@ -8,7 +8,7 @@ This project:
  1. Analyzed the connection between gender and other employee statuses (i.e. Indigenous background and disability status) and how this impacted employees achieving specific salary quartiles within various senior level occupational groups.
  2. Produced an intersectional analysis to study competition among women to achieve various salary quartiles by observing how gender coupled with Indigenous background or disability status impacted earnings potential.
 
-This labour analysis was using exploratory data analysis and ordinal logistic regression modeling to predict salary quartile achievement using the R programming language.
+This labour analysis was done using exploratory data analysis and ordinal logistic regression modeling to predict salary quartile achievement using the R programming language.
 Using a training and testing data split, different versions of the regression models were created and assessed for performance.
 The model with the best relative performance was used to create visualizations to show joint effects of gender and Indigenous/disability status.
 
