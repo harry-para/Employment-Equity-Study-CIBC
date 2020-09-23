@@ -20,4 +20,5 @@ This analysis used Microsoft Excel to store the datasets that were used to produ
 The link to the Tableau workbook is: https://public.tableau.com/profile/harry.parameswaran#!/vizhome/CIBC-FTEmployeeAnalysis/GenderDistributionbyOccupation
 
 The R script and output using Jupyter Notebooks via the RStudio editor is attached above as "CIBC FT Employee Analysis.ipynb".
+
 R packages used include: ggplot2, dplyr, corrplot, ggpubr, ggthemes, GGally, vcd, car, MASS, "effects", jtools and huxtable.
